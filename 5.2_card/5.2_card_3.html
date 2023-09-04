@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card_3</title>
+  <style>
+    .cards-list {
+      z-index: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: burlywood;
+      padding: 0px;
+      margin: 0px;
+      width: 400px;
+      height: 600px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+      cursor: pointer;
+      transition: 0.4s;
+    }
+
+    .card .card_image {
+      width: 400;
+      height: inherit;
+      border-radius: 40px;
+    }
+
+    .card .card_image img {
+      width: 400px;
+      height: 50%;
+      object-fit: cover;
+    }
+
+    .card .card_title {
+      text-align: center;
+      border-radius: 0px 0px 40px 40px;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      margin-top: -80px;
+      height: 40px;
+    }
+    a:link {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;}
+  a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+  </style>
+</head>
+
+<body>
+  <div class="cards-list">
+  <div class="card 1">
+    <div class="card_image"> <img src="https://fun-time.co.il/images/categoryImgs/ftBig_1430_1540_title.jpg"/> </div>
+    <h1>The Goladn Hights</h1>
+    <p>Cool Places to Visit:</p>
+    <a href="https://skihermonmountain.com/">Monut Hermon</a>
+    <a href="https://www.britannica.com/place/Sea-of-Galilee">Sea of Galilee</a>
+    <a href="https://en.parks.org.il/reserve-park/hula-nature-reserve/">Hula Nature Reserve</a>
+  </div></div>
+</body>
+
+</html>
