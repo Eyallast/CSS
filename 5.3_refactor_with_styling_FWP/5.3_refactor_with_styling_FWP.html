@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-  /*   
-  p {
-  color: red;background-color: whitesmoke;
-  text-align: center;
-}
-.p {
-  color: blue;background-color: yellow;
-  text-align: center;
-}
-param3 {
-  color: green; background-color: black;
-  text-align: center; -->
-<!-- } -->
-<!-- 
-</style> */
+  */ {
+    color: red;
+    background-color: blue;
+    text-align: center;
+  }
+
+  .about {
+    color: blue;
+    background-color: yellow;
+    text-align: center;
+  }
+
+  .image-container {
+    color: green;
+    background-color: black;
+    text-align: center;
+    
+  }
+
+  .main-header {
+    color: red;
+    background-color: blue;
+    text-align: center;
+  }
+  .main-nav{
+    color: blue;
+    background-color: yellow;
+    text-align: center;
+  }
+  .footer{
+    color: green;
+    background-color: yellow;
+    text-align: center;
+  }
+</style>
+
 
 <head>
   <meta charset="UTF-8">
@@ -23,17 +44,19 @@ param3 {
   <title>my_first_designed_ Webpage</title>
   <link rel="stylesheet" ; href="./5.3_refactor_with_styling_FWP.css">
 </head>
+
 <body>
-  <div id="main-header">
+  <div class="main-header">
     <h1>Hi My Name is Eyal Last, I am 40 years old, Married +3</h1>
     <h2><b>Profession: Digital Marketing</b></h2>
     <h3><i>Hobbies: Ski, Basketball, Trips and Food</i></h3>
     <a style="align-items: center;" href="israelskicamp2023.wordpress.com">Visit my site!</a>
+    <br>
     <p> ----------------------- </p>
     <div class="image-container">
       <img style="position: relative;height:50%;width:50%;"
-        src="https://israelskicamp2023.files.wordpress.com/2023/08/img_20190205_121550-edited.jpg" <p>
-      ----------------------- </p>
+        src="https://israelskicamp2023.files.wordpress.com/2023/08/img_20190205_121550-edited.jpg" <br>
+      <p>----------------------- </p>
     </div>
     <article class="Explanation">
       <p>Represents a <strong>SELF</strong> composition in a document, page, application, or site, which is intended to
@@ -48,12 +71,12 @@ param3 {
         commodi odio dicta similique unde cumque. Doloribus, inventore illum.</p>
     </article>
   </div>
-  <ul id="main-nav">
+  <ul class="main-nav">
     <li><a href="#"> item 1 </a></li>
     <li><a href="#"> item 2 </a></li>
     <li><a href="#"> item 3 </a></li>
   </ul>
-  <div id="about">
+  <div class="about">
     <aside>Represents a portion of a document whose content is only indirectly related to the document's main content.
       Asides are frequently presented as sidebars or call-out boxes.</aside>
     <nav> Represents a section of a page whose purpose is to provide navigation links, either within the current
@@ -64,7 +87,7 @@ param3 {
       filtering operation.</search>
   </div>
 </body>
-<div id="footer">
+<div class="footer">
   <p>
     copyright &copy;2023
   </p>
